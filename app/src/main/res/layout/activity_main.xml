@@ -7,7 +7,17 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".View.MainActivity"
-    android:background="@color/colorPrimary">
+    android:background="@drawable/maingradient"
+    android:weightSum="10">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/barto"
+        android:layout_weight="12"
+        >
+
+    </ImageView>
 
 
         <com.google.android.material.textfield.TextInputLayout
@@ -18,7 +28,8 @@
             app:counterMaxLength="15"
             app:errorEnabled="true"
             android:layout_marginHorizontal="30dp"
-            android:gravity="center_horizontal"
+            android:textColorHint="@android:color/white"
+            android:gravity="center"
             >
 
 
@@ -26,10 +37,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email o Usuario"
+                android:textColorHint="@android:color/white"
                 android:inputType="text"
                 android:text="Test"
-                android:textSize="30dp"
-                android:textColor="@android:color/black"/>
+                android:textSize="15dp"
+                android:textColor="@android:color/white"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -41,16 +53,18 @@
             app:errorEnabled="true"
             app:passwordToggleEnabled="true"
             android:layout_marginHorizontal="30dp"
+            android:textColorHint="@android:color/white"
             android:gravity="center_horizontal">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColorHint="@android:color/white"
                 android:hint="Clave"
                 android:inputType="textPassword"
                 android:text="Test1"
-                android:textSize="30dp"
-                android:textColor="@android:color/black"/>
+                android:textSize="15dp"
+                android:textColor="@android:color/white" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -61,11 +75,11 @@
         android:layout_gravity="center_horizontal"
         android:onClick="confirmInput"
         android:text="Ingresar"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:background="@drawable/button_color"
         android:paddingHorizontal="80dp"
         android:layout_marginTop="40dp"
-        android:textColor="@color/colorPrimary"/>
+        android:textColor="@color/colorPrimary" />
 
 
 </LinearLayout>

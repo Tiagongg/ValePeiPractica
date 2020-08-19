@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/TopHeadline"
+        android:icon="@drawable/ic_language"
+        android:title="Top USA">
+
+    </item>
+
+    <item
+        android:id="@+id/Spanish"
+        android:icon="@drawable/ic_flag_"
+        android:title="Español">
+
+    </item>
+
+        <item
+            android:id="@+id/Search"
+            android:icon="@drawable/ic_search"
+            android:title="Buscar"
+            android:checked="true">
+
+        </item>
+
+    <item
+        android:id="@+id/About"
+        android:icon="@drawable/ic_about"
+        android:title="About">
+
+    </item>
+
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.AboutFragment"
+    android:layout_weight="3"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonVersionApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Version de la APP"
+        android:background="#FF6666"
+        android:textSize="35dp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/buttonDeveloperName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nombre del Developer"
+        android:background="#FF6699"
+        android:textSize="35dp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/buttonGitHub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Github Link"
+        android:background="#FF6666"
+        android:textSize="35dp"
+        android:layout_margin="5dp"
+        android:autoLink="web"/>
+
+</LinearLayout>
